@@ -1,0 +1,29 @@
+Service 
+ 1) WS 
+ 2) RS 
+
+Spring framework  --> Java RESTful service 
+
+Testing Tool		REST client 
+ SOAP UI A) WS b) RS
+ Postman A)RS 
+
+@RestController
+@RequestMapping 
+@PathVariable 
+
+@XmlRootElement
+
+
+C		@PostMapping
+		@RequestBody
+		@RequestMapping(value = "/create" ,method = RequestMethod.POST)
+
+r		@RequestMapping / @GetMapping 
+		@PathVariable  	http://localhost:9090/hrapp/search/30
+		@QueryParam     http://localhost:9090/hrapp/search?empNo=30&empName=abc
+
+u 		@RequestMapping(value = "/update" ,method = RequestMethod.PUT)
+		
+
+d
